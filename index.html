@@ -33,7 +33,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2278024518';
+    var serviceWorkerVersion = '2112434673';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -53,5 +53,17 @@
       });
     });
   </script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyATKcd2Kyu9wLxCnMHI7B-uIx-Zryv0-qE",
+    authDomain: "pi-browser-1b70e.firebaseapp.com",
+    projectId: "pi-browser-1b70e",
+    storageBucket: "pi-browser-1b70e.appspot.com",
+    messagingSenderId: "775203073776",
+    appId: "1:775203073776:web:80108d0c4bd9f0ad02dc35"
+  };
+  const app = initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
